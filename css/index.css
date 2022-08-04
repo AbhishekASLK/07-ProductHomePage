@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
     font-family: 'Poppins';
 
 }
@@ -42,6 +42,7 @@ h1{
 .intro-section{
     display: flex;
 }
+
 .right-section{
     margin-left: 172px;
 }
@@ -51,23 +52,27 @@ h1{
     font-family: 'Fredoka One';
     padding: 9px 21px;
 }
+
 .left-section > h3{
     font-family:'Poppins';
     margin-left: 22px;
 
 }
+
 .discount-content{
     position: absolute;
     margin-top: 20px;
     z-index: 50;
     margin-top: 285px;
 }
+
 .headphone-div img{
     position: absolute;
     margin-top: 17px;
     z-index: 9;
     margin-left: -50px;
 }
+
 img.discount{
     z-index: 50;
     margin-top: 329px;
@@ -91,6 +96,7 @@ img.discount{
 }
 
 /* ---------DOTS----------- */
+
 .dots{
     position: absolute;
     display: flex;
@@ -130,15 +136,18 @@ img.discount{
     padding: 15px 26px;
     border-radius: 51px;
 }
+.action-btns button{
+    margin-left: 35px;
+    margin-top: 20px;
+    background-color: rgb(232, 154, 29);
+}
+.action-btn:nth-child(1){
+    margin-left: 240px;
+}
 button{
     background-color: rgb(232, 154, 29);
 }
 
-
-.action-btns .action-btn{
-    margin-top: 191px;
-    background-color: blueviolet;
-}
 .sub-headlines{
     margin-left: 126px;
     margin-top: 33px;
