@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins';
+}
+
+/* --------------NavBar------------ */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-items{
+    display: flex;
+    margin-left: 308px;
+}
+
+.nav-items h5{
+    padding: 0 39px;
+    margin-top: 28px;
+    font-size: 27px;
+}
+
+h3{
+    font-size: 33px;
+    margin-top: 75px;
+}
+
+h1{
+    font-size: 80px;
+    margin-left: 8px;
+}
+
+.text {
+    width: 677px;
+    margin-left: 32px;
+    margin-top: 16px;
+}
+
+.menu-bar {
+    display: none;
+}
+
+.intro-section{
+    display: flex;
+}
+
+.right-section{
+    margin-left: 172px;
+}
+
+.left-section h1{
+    font-weight: 50;
+    font-family: 'Fredoka One';
+    padding: 9px 21px;
+}
+
+.left-section > h3{
+    font-family:'Poppins';
+    margin-left: 22px;
+
+}
+
+.discount-content{
+    position: absolute;
+    margin-top: 20px;
+    z-index: 50;
+    margin-top: 285px;
+}
+
+.headphone-div img{
+    position: absolute;
+    margin-top: 17px;
+    z-index: 9;
+    margin-left: -50px;
+}
+
+img.discount{
+    z-index: 50;
+    margin-top: 329px;
+    margin-left: -113px;
+    position: absolute;
+}
+
+.discount-content{
+    color: white;
+    margin-top: 308px;
+    margin-left: -44px; 
+}
+
+.discount-content h1{
+    font-size: 45px;
+    margin-top: 79px;
+    margin-left: -29px;
+}
+
+.discount-content h4{
+    position: absolute;
+    margin-top: 65px;
+    margin-left: -9px;
+}
+
+/* ---------DOTS----------- */
+
+.dots{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 555px;
+    z-index: 100;
+    margin-left: 128px;
+    padding: 0 20px;
+    width: 182px;
+}
+
+.yellow-dot{
+    background-color: rgb(233, 10, 10);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.tomato-dot{
+    background-color: green;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.black-dot{
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.action-btn{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    margin-top: 617px;
+    z-index: 100;
+    margin-left: 136px;
+    padding: 15px 26px;
+    border-radius: 51px;
+}
+
+.action-btns button{
+    margin-left: 35px;
+    margin-top: 20px;
+    background-color: rgb(232, 154, 29);
+}
+
+.action-btn:nth-child(1){
+    margin-left: 240px;
+}
+
+button{
+    background-color: rgb(232, 154, 29);
+}
+
+.sub-headlines{
+    margin-left: 126px;
+    margin-top: 33px;
+    font-size: 34px;
+}
+
+h5.sub-headline{
+    padding: 7px 0;
+}
+
+h5 > img {
+    width: 39px;
+    background-color: red;
+    border: 6px solid red;
+    border-radius: 154px;
+}
+
+@media only screen and (max-width: 950px) {
+
+    .nav-items, nav .action {
+        display: none;
+    }
+
+    .actions {
+        background-color: red;
+        margin-right: -2rem;
+    }
+
+    .menu-bar {
+        display: block;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        font-size: 2rem;
+    }
+
+    nav .logo {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .right-section {
+        display: none;
+    }
+
+    .text {
+        width: 500px;
+        margin-left: 0px;
+        margin-top: 0px;
+        text-align: center;
+        padding: 0 10px;
+    }
+}
